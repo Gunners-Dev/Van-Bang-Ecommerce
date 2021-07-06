@@ -577,6 +577,20 @@ body {
   display: block;
   padding: 6px 12px;
   font-size: 14px;
+  transition: 0.3s;
+}
+.tag ul li a:hover {
+  background-color: #A749FF;
+  color: #fff;
+}
+
+.grid {
+  display: flex;
+  justify-content: end;
+}
+.grid a {
+  color: gray;
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

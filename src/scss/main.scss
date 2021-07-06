@@ -633,6 +633,22 @@ body{
             display: block;
             padding: 6px 12px;
             font-size: 14px;
+            transition: 0.3s;
+
+            &:hover{
+                background-color: #A749FF;
+                color: #fff;
+            }
         }
+    }
+}
+
+// grid css
+.grid{
+    display: flex;
+    justify-content: end;
+    a{
+        color: gray;
+        padding-right: 10px;
     }
 }
